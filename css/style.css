@@ -1,0 +1,296 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.jumbotron{
+  color: white;
+  background-image: url("../images/hbg2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin-bottom: 0;
+}
+
+.container-logo{
+    text-align: center;
+    font-size: 70px;
+    font-family:QanelasB;
+    padding-top: 200px;
+}
+
+@media only screen and (max-width: 990px) {
+  .container-logo{
+    font-size: 50px;
+}
+}
+
+/* --------------- NAV ----------*/
+.navbar {
+    background-color: #000 !important;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 20px;
+}
+
+.navbar .navbar-nav li a{
+    color: #fff !important;
+}
+
+.navbar .navbar-nav li a:hover{
+    color: #e08a00 !important;
+}
+
+.fab{
+    color: #e08a00;
+}
+
+.fab:hover{ 
+    filter: brightness(85%);
+}
+
+.navbar-brand{
+  padding-right: 30px;
+}
+
+.navbar-brand:hover{
+    filter: brightness(85%);
+}
+
+/* --------------- NAV social icons----------*/
+@media only screen and (max-width: 990px) {
+    .navbar-nav{
+        display: inline;
+    }
+}
+/* --------------- BEER  ----------*/
+.title {
+  font-size: 3.125em;
+  color: #e08a00;
+  font-family: QanelasB;
+  text-transform: uppercase;
+  line-height: .85em;
+  padding-bottom: 20px;
+  font-weight: 900;
+  padding-bottom: 0;
+}
+
+.showcase {
+  background-color: #000 !important;
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.tastingtext{
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+button{
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+button:hover{
+  filter: brightness(70%);
+}
+
+/* --------------- CALL TO ACTION ------------- */
+.page-section {
+  padding: 8rem 0;
+  background-color: #e08a00;
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+.example_e {
+  font-family: 'Tenor Sans', sans-serif;
+  border: none;
+  background: #fff;
+  color: #000 !important;
+  font-weight: 100;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  }
+
+.example_e:hover {
+    color: #fff !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    }
+
+/* --------------- ABOUT US ------------- */
+section#abinfo{
+  background-image: url("../images/bg2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 8rem 0;
+  font-family: 'Tenor Sans', sans-serif;
+  color: black;
+  height: 100vh;
+  font-size: 30px;
+}
+
+.divider{
+    background-color:#e08a00 !important;
+}
+    
+
+/* --------------- GALLERY ------------- */
+#portfolio{
+  background-color: rgba(0, 0, 0, 1);
+  font-family: 'Tenor Sans', sans-serif;
+}
+
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(224, 138, 0, 0.9);
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff !important;
+
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+  color: #000 !important;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+/* --------------- KONTAKT ------------- */
+section#contact {
+  background-color: #000;
+  background-image: url("../images/vaaw.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+section#contact .section-heading {
+  color: #fff;
+  font-family: QanelasB;
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact button:hover{
+    filter: brightness(40%) !important;
+}
+
+/* --------------- FOOTER --------------*/
+footer {
+  background-color: #000;
+  color: white;
+  font-family: 'Tenor Sans', sans-serif;
+  text-decoration: none;
+  padding-top: 25px; 
+  font-size: 12px;
+}
+
+a { 
+  color: inherit; 
+}
+
+a:hover {
+  color: #e08a00;
+}
+
+.big{
+  font-size: 34px;
+}
+
+.bigger{
+  font-size: 40px;
+}
+
+.smaller{
+  font-size: 16px;
+}
+.orange{  
+  color: #e08a00;
+  border-top:1px solid #e08a00; 
+}
+
+/* --------------- MORE ABOUT BEER --------------*/
+.jumbotron-white {
+  background-color: #fff;
+}
+
+
+/* --------------- FONTS ------------- */
+@font-face {
+  font-family: QanelasB;
+  src: url(../fonts/qanelassoftdemo-extrabold-webfont.woff);
+}
+
+@font-face {
+  font-family: QanelasL;
+  src: url(../fonts/qanelassoftdemo-ultralight-webfont.woff);
+}
+
